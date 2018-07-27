@@ -1,4 +1,4 @@
-import React {Component} from 'react';
+import React from 'react';
 import { BrowserRouter , Route,} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
@@ -6,7 +6,7 @@ import Page from './Page';
 
 
 
-class Routes extends Component {
+class Routes extends {
     render() {
         return (
             <BrowserRouter>
@@ -26,4 +26,4 @@ class Routes extends Component {
     }
 }
 
-render(<Routes/>, window.document.getElementById('routes'));
+export default Routes;

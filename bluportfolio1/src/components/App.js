@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Home from "./Home";
+import Routes from "./Routes";
 import PropTypes from 'prop-types';
 
 
@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 const App = ({ children }) => {
     return (
         <div>
-            <Home />
+            <Routes/>
             <div className="content">
                 {children}
             </div>

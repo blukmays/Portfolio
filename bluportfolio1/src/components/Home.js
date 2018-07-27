@@ -90,7 +90,7 @@ class AppPage extends React.Component {
                 <Container>
                     <Row className="py-5">
                         <Col md="12" className="text-center">
-                            
+
                         </Col>
                     </Row>
                 </Container>
